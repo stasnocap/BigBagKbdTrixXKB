@@ -503,15 +503,15 @@ xkb_symbols "lv5" {
       Redirect(key=<AB03>,mods=Control,clearmods=LevelFive), Redirect(key=<AB03>,mods=Shift+Control,clearmods=LevelFive)], // Ctrl+C
 //                    Redirect(key=<COPY>)        , Redirect(key=<COPY>)          ] , // <COPY>(‡‡) (not working since Ub14.04?)
                  repeat=yes     };  // C
-    key <AB04> { symbols[Group1]=[Any       , Any       , Any       , Any       ,   // V
+    key <AB05> { symbols[Group1]=[Any       , Any       , Any       , Any       ,   // V
                     XF86Paste                   , XF86Paste                     ,   // Paste(§§)
                     XF86Paste                   , XF86Paste                     ] , // Paste(§§)
                  actions[Group1]=[NoAction(), NoAction(), NoAction(), NoAction(),
-      Redirect(key=<AB04>,mods=Control,clearmods=LevelFive), Redirect(key=<AB04>,mods=Shift+Control,clearmods=LevelFive),  // Ctrl+V
-      Redirect(key=<AB04>,mods=Control,clearmods=LevelFive), Redirect(key=<AB04>,mods=Shift+Control,clearmods=LevelFive)], // Ctrl+V
+      Redirect(key=<AB05>,mods=Control,clearmods=LevelFive), Redirect(key=<AB05>,mods=Shift+Control,clearmods=LevelFive),  // Ctrl+V
+      Redirect(key=<AB05>,mods=Control,clearmods=LevelFive), Redirect(key=<AB05>,mods=Shift+Control,clearmods=LevelFive)], // Ctrl+V
 //                    Redirect(key=<PAST>)        , Redirect(key=<PAST>)          ] , // <PAST>(‡‡) (not working since Ub14.04?)
                  repeat=yes     };  // V
-    key <AB05> { symbols[Group1]=[Any       , Any       , Any       , Any       ,   // B
+    key <AB04> { symbols[Group1]=[Any       , Any       , Any       , Any       ,   // B
                     Pointer_Button1             , Pointer_Button1               ,   // LBt(††)
                     Pointer_Button1             , Pointer_Button1               ] , // LBt
                  actions[Group1]=[NoAction(), NoAction(), NoAction(), NoAction(),
