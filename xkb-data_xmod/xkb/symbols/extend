@@ -70,7 +70,7 @@ default partial
 xkb_symbols "basic" {
 //    name[Group1]= "Extend layer";
 //    include "extend(lv5_sk)"    // Extend mappings for special keys: Backspace and Enter. These may not work for all; use with care.
-//    include "extend(lv5_fk)"    // The F# key block. Some exclude it as TTY shortcuts are lost. Ext+AltGr+<FK> should work though.
+    include "extend(lv5_fk)"    // The F# key block. Some exclude it as TTY shortcuts are lost. Ext+AltGr+<FK> should work though.
     include "extend(lv5)"       // Extend mappings for all other keys, including Space.
 };
 
